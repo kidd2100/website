@@ -3,13 +3,10 @@
   @auth Eric Cauley
 */
 
-timer = window.setInterval(changeTitle, 50000);
+timer = window.setInterval(openNewWindow, 50000);
 
-function changeTitle(){
- var changeTitle = document.getElementById("h1");
- changeTitle.innerHTML = "Website";
- if(timer){
-   window.clearInterval(timer);
-   timer = undefined;
- }
+function openNewWindow(){
+  let newWin = window.open("www.espn.com", width = 400, height = 400, toolbar = 0, menubar = 0);
+  netWin.moveTo(300,400);
+  
 }
