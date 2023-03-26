@@ -6,7 +6,7 @@
 timer = window.setInterval(changeTitle, 50000);
 
 function changeTitle(){
- var changeTitle = document.getElementById("Title");
+ var changeTitle = document.getElementById("h1");
  changeTitle.innerHTML = "Website";
  if(timer){
    window.clearInterval(timer);
