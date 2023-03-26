@@ -2,7 +2,7 @@
 /*
   @auth Eric Cauley
 */
-
+var timer;
 timer = window.setInterval(openNewWindow, 50000);
 
 function openNewWindow(){
