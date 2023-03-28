@@ -30,6 +30,7 @@ header nav {
 
         header nav li a {
             display: block;
+width:30%;
             float: left;
             text-decoration: none;
             font: normal 1.0rem 'Droid Sans';
