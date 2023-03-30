@@ -58,18 +58,7 @@ body{
     color: purple;
 }
 
-@media all and (max-width: 600px) {
-    header nav li a {
-        padding: 10px 1px 10px 1px;
-    }
-
-    body {
-        padding: 1px 5% 1px 5%;
-    }
-    .triviaImage{
-        height: 30%
-    }
-}
+ 
  
 .triviaImage{
     border-radius: 30px;
@@ -82,6 +71,13 @@ body{
     padding: 0% 10% 0% 10%
 }
 
+.footer-logo{
+    width: 40%;
+    height: 5%;
+}
+/*
+    Control view on mobile devices up to 600 pixels
+*/
 @media all and (max-width: 600px) {
     header nav li a {
         padding: 10px 1px 10px 1px;
