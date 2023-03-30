@@ -86,8 +86,11 @@ body{
     body {
         padding: 1px 5% 1px 5%;
     }
-
+.aboutGame {
+    margin: 0%;
+    padding: 0% 10% 0% 10%
+}
     .triviaImage {
-        height: 20%
+        height: 10%
     }
 }
