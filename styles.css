@@ -17,6 +17,7 @@
 header nav {
     width: 100%;
     background: #C982EC;
+    border-radius: 50px;
 }
 
     header nav ol {
@@ -63,7 +64,6 @@ body{
     width:  20%;
     height: 40%;
 }
-
 
 .aboutGame {
     margin: auto;
