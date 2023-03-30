@@ -30,26 +30,26 @@ header nav {
     header nav li {
         list-style: none;
         display: inline-block;
+      
          
     }
-
+    
         header nav li a {
             display: block;
-             
             float: left;
             text-decoration: none;
             font: normal 1.0rem 'Droid Sans';
-            color: white;
-            padding: 10px 30px 10px 30px;
+            color: white;        
+            padding: 10px 20px 10px 20px;
             text-transform: uppercase;
-           
-            
         }
+ 
 
             header nav li a:hover {
                 background: #B53DF1;
                 color: white;
             }
+            
 body{
     margin: auto;
     border: 3px solid purple;
@@ -58,6 +58,18 @@ body{
     color: purple;
 }
 
+@media all and (max-width: 600px) {
+    header nav li a {
+        padding: 10px 1px 10px 1px;
+    }
+
+    body {
+        padding: 1px 5% 1px 5%;
+    }
+    .triviaImage{
+        height: 30%
+    }
+}
  
 .triviaImage{
     border-radius: 30px;
@@ -67,5 +79,19 @@ body{
 
 .aboutGame {
     margin: auto;
-    //padding: 0% 10% 0% 10%
+    padding: 0% 10% 0% 10%
+}
+
+@media all and (max-width: 600px) {
+    header nav li a {
+        padding: 10px 1px 10px 1px;
+    }
+
+    body {
+        padding: 1px 5% 1px 5%;
+    }
+
+    .triviaImage {
+        height: 20%
+    }
 }
