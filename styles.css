@@ -58,13 +58,37 @@ body{
     color: purple;
 }
 
- 
- 
+/* Styles for the box containing the slideshow and tools */
+div#lightbox {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    height: 40%;
+    margin: 5px 1px 5px 1px;
+}
+
+    /* Styles for the box containing slide images */
+    div#lightbox div#lbImages {
+        display: flex;
+        position: absolute;
+        overflow: hidden; /* Hide images which overflow the box border */
+    }
+
+/* Styles for images within the slideshow box */
+div#lbImages img {
+    height: 20%;
+    width: 23%;
+    cursor: pointer;
+    padding: 5px;
+    user-select: none;
+}
+
+ /*
 .triviaImage{
     border-radius: 30px;
     width:  20%;
     height: 40%;
-}
+}*/
 
 .aboutGame {
     margin: auto;
@@ -86,11 +110,22 @@ body{
     body {
         padding: 1px 2% 1px 2%;
     }
-.aboutGame {
-    margin: 0%;
-    padding: 0% 2% 0% 2%
-}
+
+    .aboutGame {
+        margin: 0%;
+        padding: 5% 2% 0% 2%
+    }
+
     .triviaImage {
         height: 20%
+    }
+
+    div#lightbox{
+        height: 15%;
+        width: 80%;
+        //padding-bottom:10px;
+    }
+    div#lbImages img{
+        width: 22%;
     }
 }
