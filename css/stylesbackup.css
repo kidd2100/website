@@ -1,0 +1,112 @@
+/*
+    Author: Eric Cauley
+    Date: 05/28/2023
+    File Name: styles.css
+*/
+
+/*Resets CSS styles*/
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+     
+}
+
+/*Style rules for body*/
+body {
+    margin: .5em;
+    background-color: #808080
+}
+
+/*Style rules for header*/
+header {
+    width: 25%;
+    float: left;
+    font-size: .75em;
+    text-align: center;
+    padding: 0 0 0 0;
+    
+}
+
+.logo   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Style rules for navigational*/
+nav {
+    width: 70%;
+    float: right;
+    margin: 1em 1em 0 0;
+    
+}
+
+    nav ul {
+        /* Removes bullets*/
+        list-style-type: none;
+        margin: 0;
+        text-align: right;
+        
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1.25em;
+       
+    }
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: .25em .75em;
+}
+
+
+#hero {
+    clear: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Style rules for main content*/
+main {
+    clear: left;
+    padding: 5%;
+    background-color: #ffffff;
+    font-size: 1.25em;
+    margin: 0em 3em 1em 3em;
+    border: 3px solid black;
+}
+
+.map {
+    border: 8px solid #000;
+}
+
+#contact {
+    text-align: center;
+}
+
+/*Style rules for footer*/
+footer {
+    text-align: center;
+    
+    font-size: 1.1em;
+    border: 1px solid #000;
+}
+
+footer a {
+        color: #000;
+        text-decoration: none;
+        font-size: 1em;
+}

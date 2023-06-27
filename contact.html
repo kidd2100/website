@@ -1,12 +1,12 @@
 <!doctype html>
 <!--
     Name: Eric Cauley
-    File Name:index.html
-    Date: 05/05/2023
+    File Name:contact.html
+    Date: 05/11/2023
 -->
 <html>
 <head>
-    <title>Wilddawg's Games</title>
+    <title>Wilddawg's Games Contact Us</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="images/wdsfav.jpg">
@@ -16,7 +16,6 @@
 </head>
     
 <body>
-     
     <!-- Mobile Navigational Menu -->
     <nav class="mobile-nav">
         <div id="menu-links">
@@ -53,24 +52,52 @@
         </ul>
     </nav>
 
+
     <!-- Main Content of website -->
     <main>
-
         <div id="hero" class="desktop-tablet">
             <img src="images/hero.png" alt="Wilddawg Gaming" class="desktop-tablet">
         </div>
 
-        <p>
-            We are here to help provide a variety of games to keep you entertained.
-            As we continue to develop the games, we will continue to make sure you have
-            the first opportunity to try them out. We look to provide you with a experience
-            that you will not find else wheres!
-        </p>
-        <p>
-            Have a great idea for a game, and would like to see it developed? Feel free to
-            contact us and offer a suggestion. We are always open to new ideas, especially
-            those that keep you coming back!
-        </p>
+        <div id="contact">
+            <h4>Call us at: (555) 555 - 5555</h4>
+            <h4>Visit us at: 320 N. DuPont Hwy New Castle, DE 19720</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.517857038206!2d-75.58876298975753!3d39.68305899984965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703b029435bd7%3A0x69caf90a30303dee!2s320%20N%20Dupont%20Hwy%2C%20New%20Castle%2C%20DE%2019720!5e0!3m2!1sen!2sus!4v1683855063486!5m2!1sen!2sus"
+                    width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+
+        <div id="form">
+
+            <h2>Offer your feed back below!!</h2>
+
+            <form class="form-grid">
+                <!-- Start of Form!!!! -->
+                <fieldset>
+
+                    <legend>Contact Information</legend>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" required>
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Feedback</legend>
+                    <textarea id="feedback" name="feedback" rows="10" cols="30" required></textarea>
+
+                </fieldset>
+
+                <input type="submit" id="submit" value="Submit" class="btn">
+
+            </form>
+
+        </div>
     </main>
     <!-- Contains Contact information and copy right -->
     <footer>
